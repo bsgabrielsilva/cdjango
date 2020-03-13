@@ -17,3 +17,5 @@ class Postagens(models.Model):
 
     class Meta:
         app_label = "blog"
+        verbose_name = "Postagem"
+        verbose_name_plural = "Postagens"

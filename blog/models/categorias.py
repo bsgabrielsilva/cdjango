@@ -12,3 +12,5 @@ class Categorias(models.Model):
 
     class Meta:
         app_label = "blog"
+        verbose_name = "Categoria"
+        verbose_name_plural = "Categorias"
